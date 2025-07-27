@@ -4,7 +4,7 @@
         int j=n-1;
         vector<int>v;
         while(i<=j)
-        {
+         {
             int sum=numbers[i]+numbers[j];
             if(sum>target)
             j--;
